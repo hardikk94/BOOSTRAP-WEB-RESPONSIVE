@@ -1,0 +1,63 @@
+
+    .content-wrapper{
+        height: 100%;
+        .row{            
+            .box{
+                height: 100px;
+                background: green;
+                border:1px solid blueviolet;
+                justify-content:space-between;
+            }
+        }
+        
+    }
+
+    @media only screen and (max-width:575.98px)
+    {
+        .content-wrapper{            
+            .row{            
+                .box{
+                    background: orange;
+                }
+            }
+        }
+    }
+
+    @media only screen and (min-width: 576px) { 
+        .content-wrapper{            
+            .row{            
+                .box{
+                    background: red
+                }
+            }
+        }
+
+     }
+
+     @media only screen and (min-width: 768px) {          
+        .content-wrapper{            
+            .row{            
+                .box{
+                    background: blue
+                }
+            }
+        }
+     }
+
+     @media only screen and (min-width: 992px) { 
+        .content-wrapper{            
+            .row{            
+                .box{
+                    background: green
+                }
+            }
+        }
+
+     }
+     
+
+     @media only screen and (min-width: 1200px) { 
+
+    }
+
+  
